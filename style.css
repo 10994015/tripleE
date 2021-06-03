@@ -228,7 +228,7 @@
   width: 70%;
   display: block;
   margin: auto;
--webkit-filter:brightness(.3);
+  filter:brightness(.3);
 }
 
 .phone img:hover ~.middle{
@@ -241,17 +241,14 @@ opacity: 1;
   text-decoration: none;
 }
 .middle{
-
   width: 70%;
   height:70%;
-
   transition: .5s ease;
   opacity:1;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 .phonetext{
@@ -260,7 +257,6 @@ opacity: 1;
   font-size: 40px;
   font-family: Microsoft JhengHei;
   font-weight: bold;
-
 }
 
 
@@ -271,7 +267,6 @@ opacity: 1;
   position: absolute;
   top: 50vh;
   left: auto;
-
 }
 .icon{
   width: 100%;
@@ -512,7 +507,7 @@ margin-left: 10%;
   width: 70%;
   display: block;
   margin: auto;
--webkit-filter:brightness(.3);
+filter:brightness(.3);
 }
 
 .phone img:hover ~.middle{
@@ -535,7 +530,6 @@ opacity: 1;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 .phonetext{
